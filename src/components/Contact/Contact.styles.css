@@ -1,0 +1,10 @@
+#contact {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+#contact p:last-child {
+    margin-top: 3rem;
+}

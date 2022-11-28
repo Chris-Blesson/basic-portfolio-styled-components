@@ -22,7 +22,7 @@ const Projects = ({ themeColor }) => {
         <div className="text">
           <h4>Latest Projects</h4>
           <H3 themeColor={themeColor}>My Portfolio</H3>
-          <p className="blackbox">Did somebody say recursion ? Repo link <a href="https://github.com/Chris-Blesson/Trinket-gallery" target="_blank">here</a></p>
+          <p className="blackbox">Did somebody say recursion ? Repo link <a href="https://chris-blesson.github.io/basic-portfolio-styled-components" target="_blank">here</a></p>
           <h4>Technologies used include:</h4>
           <ul>
             <li>React</li>

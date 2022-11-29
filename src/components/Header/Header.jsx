@@ -7,21 +7,35 @@ import Select from 'react-select';
 import DarkModeToggle from "react-dark-mode-toggle";
 
 const Icon = styled.i`
+`;
+
+/*
+const Icon = styled.i`
   color: ${props => {
     return props.themeColor.color
   }};
 `;
+*/
 
+const Anchor = styled.a`
+`
+
+/*
 const Anchor = styled.a`
   color: ${props => props.theme.mode === 'dark' ? '#fff' : '#475867'}
 `;
+*/
 
+export const AnchorButton = styled.a`
+`
+/*
 export const AnchorButton = styled.a`
   background: ${props => props.theme.mode === 'light' ? 'linear-gradient(180deg, #264966 0%, #12344d 100%)' : '#E310CB'};
   &:hover {
     background-color: #12344D ${props => props.theme.mode === 'light' ? '#12344D' : '#FF17E4'};
   }
 `;
+*/
 const colourOptions = [
   { value: 'ocean', label: 'Ocean', color: '#86fbfb' },
   { value: 'purple', label: 'Purple', color: '#5243AA' },

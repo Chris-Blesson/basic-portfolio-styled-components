@@ -3,8 +3,15 @@ import styled from 'styled-components';
 import './Intro.styles.css';
 
 const Span = styled.span`
+  
+`;
+
+/*
+const Span = styled.span`
   color: ${props => props.themeColor.color};
 `;
+*/
+
 const Intro = ({ themeColor }) => {
   return (
     <section className={`intro-${themeColor.value}`} id="intro">

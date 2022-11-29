@@ -11,6 +11,10 @@ import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
 
 const DIV = styled.div`
+`;
+
+/*
+const DIV = styled.div`
  background: ${props => props.theme.mode === 'dark' ? '#171321' : '#fff'};
  color: ${props => props.theme.mode === 'dark' ? '#fff' : '#12344D'};
 
@@ -19,6 +23,8 @@ const DIV = styled.div`
     height: 2px;
   }
 `;
+
+*/
 
 
 const AppLayout = () => {

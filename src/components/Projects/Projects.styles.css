@@ -7,9 +7,6 @@
     margin-bottom: calc(2.5rem * 1.5);
 }
 
-#projects h3 {
-    color: var(--aqua);
-}
 
 #projects h4 {
     font-size: 1rem;
@@ -45,10 +42,4 @@
     border-radius: 25px;
 }
 
-.projects-purple h3 {
-  color: #757ff8 !important;
-}
 
-.projects-silver h3 {
-  color: #666666 !important;
-}
